@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container-sm contact-container mt-4 border border-1 rounded p-3" id="contact-page">
+<h1 class="text-align">Contact Me</h1>
+
+        <form>
+          <div class="mb-3">
+            <label for="nameInput" class="form-label">Name</label>
+            <input type="text" class="form-control" id="nameInput" placeholder="Your name here">
+          </div>
+  
+          <div class="mb-3">
+            <label for="emailInput" class="form-label">Your Email</label>
+            <input type="text" class="form-control" id="emailInput" placeholder="abc@xyz.com">
+          </div>
+  
+          <div class="mb-3">
+            <label for="messageInput" class="form-label">Your message</label>
+            <textarea id="messageInput" class="form-control" placeholder="Your message here"></textarea>
+          </div>
+  
+          <div class="mb-3">
+            <button type="submit" class="btn btn-warning">Send Message</button>
+          </div>
+        </form>
+      </div>
+{% endblock %}<script type="application/javascript" src="/share.js"></script>
